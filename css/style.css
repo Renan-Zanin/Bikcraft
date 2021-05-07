@@ -141,6 +141,19 @@ img {
   margin: 2px auto;
 }
 
+.header_menu ul li a.menu_ativo_sobre {
+  color: #fff;
+  margin-bottom: 3px;
+}
+.header_menu ul li a.menu_ativo_sobre::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 3px;
+  background: #fff;
+  margin: 2px auto;
+}
+
 /* introdução */
 .introducao {
   width: 100%;
